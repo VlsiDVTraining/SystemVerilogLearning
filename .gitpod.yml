@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+tasks:
+  - name: Check simulator versions
+    command:  |
+      verilator --version
+      iverilog -V
